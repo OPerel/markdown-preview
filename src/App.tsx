@@ -37,9 +37,10 @@ const App: React.FC = () => {
       >
         Clean Text Editor
       </button>
-      {/*<button>*/}
-      {/*  Copy to Clipboard*/}
-      {/*</button>*/}
+      <button>
+        {/* TODO: this button is not doing anything */}
+        Copy HTML to Clipboard
+      </button>
       <button
        onClick={() => setDisplayRenderer(!displayRenderer)}
       >
